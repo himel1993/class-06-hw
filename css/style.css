@@ -1,0 +1,29 @@
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    background: linear-gradient(to right, #556270, #ff6b6b);
+text-align: center;
+padding: 10px 0;
+}
+.navbar li{
+    display: inline-block;
+    margin:0 15px;
+    
+}
+.navbar li a{
+    color: black;
+    padding: 15px 25px;
+    display: inline-block;
+    background-color: white;
+    transition: 300ms;
+}
+.navbar li a:hover{
+    background-color: black;
+    color:white;
+    padding: 15px 40px;
+}
